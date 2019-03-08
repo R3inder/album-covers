@@ -1,0 +1,51 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #867979;
+}
+
+/* Reset */
+html, body, div, article, p, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+   width: 85%;
+   margin: 0 auto;
+}
+
+.cover {
+  width: 300px;
+  float: left;
+  margin: 1em;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cover article {
+  position: relative;
+  background: rgba(255,255,255,0.5);
+  height: 305px;
+  font-size: .9em;
+  padding: 1.5em;
+  margin-top: 0;
+  transition: margin-top 1s;
+}
+
+.cover:hover article {
+  margin-top: -305px;
+  cursor: pointer;
+}
+
+.cover article h3, .cover article h4, .cover article p {
+  padding: .3em;
+}
+
+#validatie {
+  padding-left: 45%
+  padding: 200px;
+}
